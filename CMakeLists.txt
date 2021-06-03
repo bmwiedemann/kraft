@@ -79,6 +79,7 @@ find_package(Qt5 CONFIG REQUIRED
     Widgets
     Xml
     Svg
+    XmlPatterns
 )
 
 # XmlGui for the ConfigSkeleton
