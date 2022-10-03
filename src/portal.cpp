@@ -958,7 +958,7 @@ void Portal::slotReconfigureDatabase()
 void Portal::slotConvertToXML()
 {
     DbToXMLConverter converter;
-    converter.convertDocs(2019);
+    converter.convertDocs(2022);
 }
 
 
