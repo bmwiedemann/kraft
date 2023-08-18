@@ -882,7 +882,6 @@ void Portal::slotPrintDocument(const QString& uuid)
     slotStatusMsg(i18n("Printing document...") );
 
     _reportGenerator.createDocument(ReportFormat::PDF, uuid); // work on document identifier.
-
 }
 
 void Portal::slotOpenPdf( const QString& fileName )
